@@ -13,7 +13,7 @@ html, body { width: 100%; height: auto; overflow-x: hidden; }
 .box-wrap .box { position: relative; width: 100%; max-width: 500px; height: 800px; background: #fff; border-radius: 20px; margin-top: 20px;}
 
 .box-wrap .box .btn-wrap {position: absolute; left: 0; bottom: 0; width: 100%; height: 60px; display: flex; justify-content: space-evenly;}
-.box-wrap .box .btn-wrap a { font-family: 'KMA'; font-weight: 400; color: #8f8f8f; width: 100%;}
+.box-wrap .box .btn-wrap a { width: 100%; font-family: 'KMA'; font-weight: 400; color: #8f8f8f; display: flex; justify-content: center; align-items: center;}
 .box-wrap .box .btn-wrap a.active { font-weight: 800; color: #4B3AFF;}
 
 /* 하단 텍스트 */
