@@ -24,6 +24,11 @@ html, body { width: 100%; height: auto; overflow-x: hidden; }
 .box-wrap .box .info-wrap .user-kor { font-family: 'KMA'; font-size: 50px; font-weight: 800; letter-spacing: 20px; margin-top: 20px; }
 .box-wrap .box .info-wrap .user-kor::first-letter {padding-left: 20px;}
 .box-wrap .box .info-wrap .user-dept {font-family: 'SUIT-Variable'; font-size: 22px; color: #868686; margin-top: 30px; }
+
+.box-wrap .box .info-wrap .user-info {position: relative; width:auto; max-width: 315px; display: flex; flex-direction: column; margin-top: 40px; gap: 10px;}
+.box-wrap .box .info-wrap .user-info > div {display: flex; align-items: center; gap: 10px;}
+.box-wrap .box .info-wrap .user-info > div > img { width: 30px; background: rgba(27, 30, 171, 0.1); padding: 7px; border-radius: 40px; overflow: visible;}
+.box-wrap .box .info-wrap .user-info > div > span { font-family: 'SUIT-Variable'; }
  
 
 /* 명함/KMA소식/부서소식 이동 버튼 */
