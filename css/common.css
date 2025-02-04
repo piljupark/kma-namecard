@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* @view-transition {navigation: auto;}
+
+
+@keyframes fadeIn {
+  0% {
+    translate: 100%;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    translate: -100%;
+  }
+}
+
+::view-transition-old(root) { animation: fadeOut both 0.5s;}
+::view-transition-new(root) { animation: fadeIn both 0.5s;} */

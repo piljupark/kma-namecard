@@ -7,10 +7,10 @@ html, body { width: 100%; height: auto; overflow-x: hidden; }
 
 .bg {position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background-image: url('../assets/imgs/main_bg.webp'); background-position: center; background-repeat: no-repeat; background-size: cover;}
 
-.box-wrap { position: relative; width: 100%; max-width: 540px; height: 100vh; margin: 0 auto; padding: 0 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: center; justify-items: center; }
+.box-wrap { position: relative; width: 100%; max-width: 540px; height: 100vh; margin: 0 auto; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: center; justify-items: center; }
 
 /* 컨텐츠 */
-.box-wrap .box { position: relative; width: 100%; max-width: 500px; height: 800px; margin-top: 20px; padding: 20px; background: #fff; border-radius: 30px; box-sizing: border-box; overflow: hidden;}
+.box-wrap .box { position: relative; width: 100%; max-width: 500px; height: auto; min-height: 500px; margin-top: 20px; padding: 30px; background: #fff; border-radius: 30px; box-sizing: border-box; overflow: hidden;}
 
 /* 상단 사명/다운로드 버튼 */
 .box-wrap .box .top {position: relative; width: 100%; height: auto; display: flex; justify-content: space-between; }
@@ -28,7 +28,7 @@ html, body { width: 100%; height: auto; overflow-x: hidden; }
 .box-wrap .box .info-wrap .user-info {position: relative; width:auto; max-width: 315px; display: flex; flex-direction: column; margin-top: 40px; gap: 10px;}
 .box-wrap .box .info-wrap .user-info > div {display: flex; align-items: center; gap: 10px;}
 .box-wrap .box .info-wrap .user-info > div > img { width: 30px; height: 100%; background: rgba(27, 30, 171, 0.1); padding: 6px; border-radius: 40px; overflow: visible;}
-.box-wrap .box .info-wrap .user-info > div > span { font-family: 'SUIT-Variable'; }
+.box-wrap .box .info-wrap .user-info > div > span { font-family: 'SUIT-Variable'; cursor: pointer; }
  
 
 /* 명함/KMA소식/부서소식 이동 버튼 */
@@ -37,4 +37,4 @@ html, body { width: 100%; height: auto; overflow-x: hidden; }
 .box-wrap .box .btn-wrap a.active { font-weight: 800; color: #4B3AFF;}
 
 /* 하단 텍스트 */
-.box-wrap .bottom-txt { position: relative; font-family: 'SUIT-variable'; color: #fff; margin-top: 20px; }
+.box-wrap .bottom-txt { position: relative; font-family: 'SUIT-variable'; color: #fff; margin-top: 20px; font-size: 14px; line-height: 1.5; }
