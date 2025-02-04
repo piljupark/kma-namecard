@@ -5,16 +5,6 @@ html, body { width: 100%; height: auto; overflow-x: hidden; }
 
 #container { position: relative; width: 100%; height: 100vh;}
 
-.bg {position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background-image: url('../assets/img/main_bg.webp'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.bg {position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background-image: url('../assets/imgs/main_bg.webp'); background-position: center; background-repeat: no-repeat; background-size: cover;}
 
-.box-wrap { position: relative; width: 100%; max-width: 540px; height: 100vh; margin: 0 auto; padding: 0 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: center; justify-items: center; }
-
-/* 컨텐츠 */
-.box-wrap .box { position: relative; width: 100%; max-width: 500px; height: 800px; background: #fff; border-radius: 20px; margin-top: 20px;}
-
-.box-wrap .box .btn-wrap {position: absolute; left: 0; bottom: 0; width: 100%; height: 60px; display: flex; justify-content: space-evenly;}
-.box-wrap .box .btn-wrap a { width: 100%; font-family: 'KMA'; font-weight: 400; color: #8f8f8f; display: flex; justify-content: center; align-items: center;}
-.box-wrap .box .btn-wrap a.active { font-weight: 800; color: #4B3AFF;}
-
-/* 하단 텍스트 */
-.box-wrap .bottom-txt { position: relative; font-family: 'SUIT-variable'; color: #fff; margin-top: 20px; }
+.logo {position: relative; width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center;}

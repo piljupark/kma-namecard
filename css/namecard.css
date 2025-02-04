@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+html, body { width: 100%; height: auto; overflow-x: hidden; }
+
+#container { position: relative; width: 100%; height: 100vh;}
+
+.bg {position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background-image: url('../assets/imgs/main_bg.webp'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+
+.box-wrap { position: relative; width: 100%; max-width: 540px; height: 100vh; margin: 0 auto; padding: 0 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: center; justify-items: center; }
+
+/* 컨텐츠 */
+.box-wrap .box { position: relative; width: 100%; max-width: 500px; height: 800px; margin-top: 20px; padding: 20px; background: #fff; border-radius: 30px; box-sizing: border-box;}
+
+/* 상단 사명/다운로드 버튼 */
+.box-wrap .box .top {position: relative; width: 100%; height: auto; display: flex; justify-content: space-between; }
+.box-wrap .box .top .company {font-family: 'SUIT-Variable'; font-size: 13px; color: rgba(0,0,0,0.3); font-weight: 300;}
+.box-wrap .box .top .download {background: none; }
+
+/* 명함 정보 */
+.box-wrap .box .info-wrap { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 30px;}
+.box-wrap .box .info-wrap .user-img {width: 150px; height: 150px; background: #ddd; border-radius: 100%; }
+.box-wrap .box .info-wrap .user-eng { font-family: 'SUIT-Variable'; font-size: 20px; color: #868686; margin-top: 30px;}
+.box-wrap .box .info-wrap .user-kor { font-family: 'KMA'; font-size: 50px; font-weight: 800; letter-spacing: 20px; margin-top: 20px; }
+.box-wrap .box .info-wrap .user-kor::first-letter {padding-left: 20px;}
+.box-wrap .box .info-wrap .user-dept {font-family: 'SUIT-Variable'; font-size: 22px; color: #868686; margin-top: 30px; }
+ 
+
+/* 명함/KMA소식/부서소식 이동 버튼 */
+.box-wrap .box .btn-wrap {position: absolute; left: 0; bottom: 0; width: 100%; height: 60px; display: flex; justify-content: space-evenly;}
+.box-wrap .box .btn-wrap a { width: 100%; font-family: 'KMA'; font-weight: 400; color: #8f8f8f; display: flex; justify-content: center; align-items: center;}
+.box-wrap .box .btn-wrap a.active { font-weight: 800; color: #4B3AFF;}
+
+/* 하단 텍스트 */
+.box-wrap .bottom-txt { position: relative; font-family: 'SUIT-variable'; color: #fff; margin-top: 20px; }

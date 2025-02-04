@@ -318,7 +318,6 @@ img{border:none}
 
 html,body {width:100%; height:100%;}/*하단의 스크롤바 생기게 할때 추가 */
 body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, thead, tbody, tr, th, td, form, fieldset, legend, input, textarea, button {margin:0; padding:0; font-weight:normal; word-wrap: break-wrod!important; word-break: keep-all!important;}
-body, input, select, div, textarea, table, button {font-size:16px;line-height:22px;color:#888888;}/*나중에 나눔고딕 서버에서 연결하고 여기서 '' 지우기*/
 table {width:100%; border:0; border-spacing:0; border-collapse:collapse;}
 legend {display:none; visibility:hidden;}
 img, fieldset, button {vertical-align:middle; border:0;}
@@ -327,7 +326,6 @@ em, address {font-style:normal;}
 hr {display:none; visibility:hidden;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {display:block; margin: 0; padding: 0; }
 caption  {height: 0; width: 0; font-size: 0; line-height: 0; margin: 0; padding: 0;}
-input, textarea, button {line-height: 1.2; /* 입력폼에서 춤추지 않는 최소 줄간 1.2 */ vertical-align: middle;}
 textarea {background:#ffffff; width:100%; height:100px; padding:4px 0 1px 0; color:#454545; /* text-indent:7px; *text-indent:0; */ vertical-align:middle; border:1px solid #e0e0e0;}
 input[type="file"] {vertical-align:middle; height:22px; width:80%; margin-right:6px;}
 input[type="checkbox"],input[type="radio"] { margin:0; padding:0; vertical-align:middle; width:13px; height:13px; line-height:13px;}
